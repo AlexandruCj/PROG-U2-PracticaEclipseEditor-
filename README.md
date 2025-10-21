@@ -1,2 +1,11 @@
 # PROG-U2-PracticaEclipseEditor-
 Familiarizarse con las principales preferencias del editor Java en Eclipse: personalización visual, ayudas de escritura, acciones automáticas, plantillas y estilo del código.
+
+## Explicacion de cada una de las capturas del repositorio:
+- 01_general.png: esto es util para poder ver mejor los parentesis y llaves y darnos cuenta mas rapido si falta alguna de ellas sin cerrar.
+- 02_save_actions.png: es muy util ya que al activar las opciones de Format source code y Organize imports pues lo que hace esto que da igual lo desordenado que este el codigo que cuando le das "CTRL+S" se reordena solo.
+- 03_content_assist.png: "content assist" mejora la productividad ya que con poner abreviaturas como "sysout" y le das "CTRL + Space" pues directamente abre una lista de sugerencia para autocompletarlo, y si "ms" es mayor, por ejemplo, en este caso lo cambiamos de 0 a 1000, pues eclipse espera 1 segundo para mostrar dicha lista.
+- 04_syntax_coloring.png: Tener un buen contraste visual es muy importante a l hora de diferencia cada funcion de nuestro codigo, por eso es recomendable no tacar mucho los colores, ya que los de eclipse vienen bastante bien para diferenciar cada uno, en cambio si lo cambias puede que te confundas al leer o escribir tu propio codigo.
+- 05_mark_occurrences.png: la diferencia entre Mark Occurrences (resaltado automático) Search References (Ctrl + Shift + U, búsqueda manual) es que el primero solo con darle un click a una variable para ver en que lineas aparece pues se resalta automaticamente, en cambio el otro tienes que dar click y luego darle a la combinacion "CTRL + U", esto lo que hace es que se te abre una pestaña normalmente en la parte inferior de eclipse y te muestra en que lineas aparece dicha variable y para que se utilizo "int x=5" o "if (x < 10)"....
+- 06_typing.png: estas ayuda reducen muchos errores ya que asi evita que se te olvide cerrar el parentesis, llaves...
+- 07_templates.png: las plantillas son sugerencias del codigo completo que vas a utilizar y sirve apra agilizar el trabajo con tan solo poner unas inicles como "sysout" y le des "CTRL + Space" aparezca la lista dandote una platilla para que se inserte automaticamente dandole ahi "system.out.printl();"
